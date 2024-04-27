@@ -1,0 +1,25 @@
+{
+  "global": {
+    "error": "Fehler",
+    "close": "Schließen",
+    "somethingWentWrong": "Etwas ist schief gelaufen!",
+    "connectingTimedOut": "Zeitüberschreitung beim Verbinden!",
+    "noInternetConnection": "Keine Internetverbindung"
+  },
+  "navigation": {
+    "home": "Hauptseite",
+    "second": "Zweite Seite"
+  },
+  "ipInfo": {
+    "query_args": "Abfrage: {}",
+    "country_args": "Land: {}",
+    "countryCode_args": "Ländercode: {}",
+    "region_args": "Region: {}",
+    "region name_args": "Name der Region: {}",
+    "city_args": "Stadt: {}",
+    "zip_args": "Postleitzahl: {}",
+    "timezone_args": "Zeitzone: {}",
+    "organization name_args": "Name der Organisation: {}",
+    "asNumberAndOrganization_args": "AS-Nummer und Organisation: {}"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "global": {
+    "error": "Error",
+    "close": "Close",
+    "somethingWentWrong": "Something went wrong!",
+    "connectingTimedOut": "Connecting timed out!",
+    "noInternetConnection": "No Internet connection"
+  },
+  "navigation": {
+    "home": "Home screen",
+    "second": "Second screen"
+  },
+  "ipInfo": {
+    "query_args": "Query: {}",
+    "country_args": "Country: {}",
+    "countryCode_args": "Country Code: {}",
+    "region_args": "Region: {}",
+    "region name_args": "Region name: {}",
+    "city_args": "City: {}",
+    "zip_args": "zip: {}",
+    "timezone_args": "Timezone: {}",
+    "organization name_args": "Organization name: {}",
+    "asNumberAndOrganization_args": "AS number and organization: {}"
+  }
+}
