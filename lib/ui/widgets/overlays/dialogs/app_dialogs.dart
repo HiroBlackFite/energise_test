@@ -5,7 +5,6 @@ import 'package:easy_localization/easy_localization.dart';
 
 import 'package:energise_test/localization/locale_keys.g.dart';
 import 'package:energise_test/logic/extensions/extensions.dart';
-import 'package:energise_test/ui/widgets/overlays/overlays.dart';
 import 'package:energise_test/ui/widgets/overlays/widgets/widgets.dart';
 import 'package:energise_test/ui/widgets/widgets.dart';
 

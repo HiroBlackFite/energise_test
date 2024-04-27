@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_map/flutter_map.dart';
@@ -47,7 +45,7 @@ class _SecondScreenState extends State<SecondScreen> {
             body: RefreshIndicator(
               onRefresh: _onRefresh,
               child: SingleChildScrollView(
-                physics: AlwaysScrollableScrollPhysics(),
+                physics: const AlwaysScrollableScrollPhysics(),
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: Column(
@@ -106,7 +104,6 @@ class _SecondScreenState extends State<SecondScreen> {
   void _ipInfoBlocListener(BuildContext context, IpInfoState state) {
     state.whenOrNull(
       error: (data) => errorHandler(context, error: data.error),
-      getIPInfoSuccess: (data) => log('${data.iPInfo}'),
     );
   }
 }
